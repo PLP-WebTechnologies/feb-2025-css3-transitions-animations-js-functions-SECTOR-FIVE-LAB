@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Assignment 1: Interactive Web UI</h1>
+            <div class="preferences">
+                <button id="themeToggle" class="btn">Change Theme</button>
+                <button id="animationToggle" class="btn">Change Animations</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="card-container">
+                <div class="card">
+                    <img src="https://picsum.photos/300/200" alt="Random image" class="card-image">
+                    <h2>First Card</h2>
+                    <p>card with hover effects and animations.</p>
+                    <button class="btn card-btn"> More!</button>
+                </div>
+                <div class="card">
+                    <img src="https://picsum.photos/300/201" alt="Random image" class="card-image">
+                    <h2>Second Card</h2>
+                    <p>card with the same effects.</p>
+                    <button class="btn card-btn">More!</button>
+                </div>
+            </section>
+
+            <section class="animation-demo">
+                <h2>Animation</h2>
+                <div class="animation-container">
+                    <div id="animatedElement" class="animated-box">Hover or Click Me!</div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
